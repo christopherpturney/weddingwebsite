@@ -32,10 +32,15 @@
  
 }
 
-  .carousel-caption > h1{
-  	padding-top:30%;
-    padding-bottom: 20%;
-  }
+ .headline {
+ 	margin:0;
+ 	padding:0;
+ 	top:20px;
+ }
+
+
+ 
+
 /*end wedding contetn*/
 
 
