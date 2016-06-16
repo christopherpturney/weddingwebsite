@@ -11,24 +11,24 @@
 /* wedding content  */
 
 .carousel-control {
-  width: 25%;
+  width: 20%;
   font-size: 25px;
   color: #fff;
   text-align: center;
   text-shadow: 0 2px 3px rgba(0, 0, 0, .6);
   filter: alpha(opacity=50);
-  opacity: .95;
+  opacity: .85;
 }
 
   .carousel-control.left {
-  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, .7) 0%), color-stop(rgba(0, 0, 0, .0001) 100%));
-  background-image:         linear-gradient(to right, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .0001) 100%);
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, .5) 0%), color-stop(rgba(0, 0, 0, .00001) 100%));
+  background-image:         linear-gradient(to right, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .00001) 100%);
  
 }
 .carousel-control.right {
  
-  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, .0001) 0%), color-stop(rgba(0, 0, 0, .7) 100%));
-  background-image:         linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .7) 100%);
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, .00001) 0%), color-stop(rgba(0, 0, 0, .5) 100%));
+  background-image:         linear-gradient(to right, rgba(0, 0, 0, .00001) 0%, rgba(0, 0, 0, .5) 100%);
  
 }
 
@@ -46,6 +46,25 @@
 	text-shadow: 2px 2px 7px rgba(0,0,0,.75);
 }
  
+
+.vignette {
+  position: relative;
+}
+
+.vignette:after {
+ -moz-box-shadow: inset 0 0 50em rgba(0,0,0,.75); 
+ -webkit-box-shadow: inset 0 0 50em rgba(0,0,0,.75); 
+ box-shadow: inset 0 0 40em 5em rgba(0,0,0,.6);
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: 0;
+ content: "";
+}
+
+
 
 /*end wedding contetn*/
 
