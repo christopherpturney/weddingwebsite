@@ -1,0 +1,85 @@
+/*----------------------------------------------------------------------------- 
+=MAIN STYLES  
+-----------------------------------------------------------------------------*/
+.navbar-inverse {
+	background: #D1D1D1;
+	color:white;
+	padding:10px;
+}
+
+
+/* wedding content  */
+
+.carousel-control {
+  width: 25%;
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, .6);
+  filter: alpha(opacity=50);
+  opacity: .95;
+}
+
+  .carousel-control.left {
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, .7) 0%), color-stop(rgba(0, 0, 0, .0001) 100%));
+  background-image:         linear-gradient(to right, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .0001) 100%);
+ 
+}
+.carousel-control.right {
+ 
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, .0001) 0%), color-stop(rgba(0, 0, 0, .7) 100%));
+  background-image:         linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .7) 100%);
+ 
+}
+
+  .carousel-caption > h1{
+  	padding-top:30%;
+    padding-bottom: 20%;
+  }
+/*end wedding contetn*/
+
+
+
+.white-box-container {
+	margin: 5px 50px 5px 50px;
+	/*background-color: red;*/
+}
+
+.row {
+	vertical-align: middle;
+}
+
+.white-box {
+	/*background-color: blue;*/
+	text-align:center;
+	vertical-align: middle;
+	padding-top:20px;
+	padding-bottom:20px;
+
+}
+ 
+.line {
+	margin: 20px;
+	border: 1px solid #D1D1D1;
+}
+
+
+.white-box-image  {
+	max-width:100%;
+	max-height:100%;
+}
+
+#dog {
+	padding:2px;
+	margin:2px;
+	border: 1px solid #D1D1D1;
+}
+
+h2 {
+	font-size:2em;
+}
+
+h3 {
+	font-size:1.6em;
+	margin-top:0;
+}
