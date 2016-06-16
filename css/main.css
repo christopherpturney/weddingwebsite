@@ -64,7 +64,14 @@
  content: "";
 }
 
-
+iframe {
+	margin:  0 auto;
+	display: block;
+	margin-top:50px;
+	width: 100%;
+	max-width:600px;
+	height: 400px;
+}
 
 /*end wedding contetn*/
 
